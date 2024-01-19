@@ -1,0 +1,76 @@
+.row {
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* Since white and black cells are almost identical, I have their styles in a seperate identifier*/
+.white {
+	background-color: white;
+}
+
+.black {
+	background-color: #787878;
+}
+
+/* Affects all cells */
+.row div {
+	border: 1px solid black;
+	width: 12%;
+	height: 0px;
+	padding-bottom: 12%; /* Having padding bottom be equal to the width makes the cells squares */
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+/* The error is because # is for an ID while clear is a group */
+
+.clear {
+	clear: both;
+}
+
+#container {
+	width: 50%;
+	margin: 20% auto 5% auto;
+}
+
+#title {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	background-color: rgb(255, 0, 255);
+	text-align: center;
+	z-index: 10;
+
+	font-family: 'BabelStoneModernRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+}
+
+#footer {
+	border: solid 1px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	background-color:rgba(255, 255, 255, 0.8)
+}
+
+#validatorImage {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Center the pieces in each cell */
+.piece {
+	width: 90%;
+}
+
