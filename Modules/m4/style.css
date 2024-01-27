@@ -26,7 +26,7 @@ nav, #feature, footer {
 
 .column3 {
 	margin-right: 0%;
-	background-color: 7033FF;
+	background-color: #7033FF;
 }
 
 li {
@@ -62,10 +62,6 @@ nav {
 
 .column2 {
 	background-color: #33A4FF;
-}
-
-.column3 {
-	background-color: #FF33FC;
 }
 
 footer {
