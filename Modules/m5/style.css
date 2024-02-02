@@ -9,9 +9,8 @@ body {
 }
 
 h1 {
-	background-image: url('images/bullseye-logo.png');
+	background-image: url('https://javascriptbook.com/code/c04/images/bullseye-logo.png');
 	background-repeat: no-repeat;
-	background-position: center;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
