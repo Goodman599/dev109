@@ -1,0 +1,51 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	text-align: center;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-image: url("Background image.png");
+}
+
+#content {
+	overflow: auto;
+}
+
+
+li {
+	display: inline;
+	padding: 0.5em;
+}
+
+nav, footer {
+	padding: 0.5em 0;
+}
+
+
+footer {
+	background-color: #33A4FF;
+	margin: 0 auto;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
+
+nav{
+	background-color: #606060;
+}
+
+nav li {
+	color: #756213;
+	font-family: 'SuperiaRegular';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.5em;
+}
+
+.currentPage {
+	color: #ffd52e;
+}
