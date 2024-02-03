@@ -86,14 +86,26 @@ figcaption {
 	font-size: 2em;
 }
 
-.assignmentLink img {
+figure img {
 	margin: 10px;
 	border: inset;
 	border-width: 3px;
 	border-color: #FFF3A5;
+	object-fit: cover;
+}
+
+.assignmentLink img {
 	width: 274px;
 	max-height: 250px;
-	object-fit: cover;
+}
+
+#html figure, #css figure {
+	margin: 10px;
+}
+
+#html img, #css img {
+	width: 400px;
+	max-height: 300px;
 }
 
 textarea {
@@ -149,6 +161,20 @@ input[type=submit] {
 #html, #css {
 	float: left;
 	width: 452px;
-	height: 1000px;
+	overflow: auto;
 	margin: 0px 10px;
+}
+
+hr {
+	border: 3px inset #C1B87E;
+	width: 452px;
+	margin: -10px;
+}
+
+#validations {
+	display: flex;
+}
+
+#validations figure {
+	min-height: 300px;
 }
