@@ -44,6 +44,10 @@ nav li {
 	text-decoration: underline;
 }
 
+nav a:visited{
+	color: #756213;
+}
+
 .headerAndFooterClearer {
 	clear: both;
 	height: 100px;
@@ -58,15 +62,18 @@ nav li {
 	margin: auto;
 }
 
+.contentBox {
+	background-color: #FFF3A5;
+	border: outset;
+	border-width: 4px;
+	border-color: #FFF3A5;
+}
+
 .assignmentLink {
 	width: 300px;
 	height: 400px;
 	margin: 6px;
 	float: left;
-	background-color: #FFF3A5;
-	border: outset;
-	border-width: 4px;
-	border-color: #FFF3A5;
 }
 
 .assignmentLink figure {
@@ -87,4 +94,66 @@ figcaption {
 	width: 274px;
 	max-height: 250px;
 	object-fit: cover;
+}
+
+textarea {
+	width: 380px;
+	height: 10em;
+	margin: 0px auto;
+}
+
+input[type=text], input[type=email] {
+	width: 220px
+}
+
+input[type=submit] {
+	width: 120px;
+	height: 60px;
+}
+
+.clear {
+	clear: both;
+	margin: 10px 0px;
+}
+
+.backButton {
+	position: relative;
+	width: 220px;
+	height: 60px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 5px;
+	text-align: center;
+}
+
+button:hover {
+	background-color: #E6DB96;
+	border-color: #E6DB96;
+}
+
+button:active {
+	background-color: #C1B87E;
+	border-color: #C1B87E;
+}
+
+button img {
+	height: 100%;
+	object-fit: cover;
+	float: left;
+}
+
+button p {
+	font-size: 1.5em;
+	display: inline;
+	position: absolute;
+	top: 50%;
+	margin: 0px;
+	transform: translate(-50%, -50%);
+}
+
+#html, #css {
+	float: left;
+	width: 452px;
+	height: 1000px;
+	margin: 0px 10px;
 }
