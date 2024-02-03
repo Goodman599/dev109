@@ -126,23 +126,18 @@ input[type=submit] {
 	text-align: center;
 }
 
-button:hover {
-	background-color: #E6DB96;
-	border-color: #E6DB96;
-}
-
-button:active {
+.backButton:hover {
 	background-color: #C1B87E;
 	border-color: #C1B87E;
 }
 
-button img {
+.backButton img {
 	height: 100%;
 	object-fit: cover;
 	float: left;
 }
 
-button p {
+.backButton p {
 	font-size: 1.5em;
 	display: inline;
 	position: absolute;
