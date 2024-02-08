@@ -1,9 +1,15 @@
-function createRhombus(rHeight, rColorEven, rColorOdd, rSymbol) {
+function createRhombus(rHeight, rColorEven, rColorOdd, rSymbol, cChangeInput) {
     // A X height rombus will be X wide, going 1, 3, 5 ... x, x-2 ... 1
     // Even height rhombuses will have flat tops
 
     var isEvenHeight = rHeight % 2 == 0;
     var rLine = "<p>";
+
+    // Set the cChange string to a true or false bool
+    var cChange = false;
+    if (cChangeInput == "yes") {
+        cChange = true;
+    }
 
     for (row = 0; row < rHeight; row++) {
 
@@ -42,6 +48,13 @@ function createRhombus(rHeight, rColorEven, rColorOdd, rSymbol) {
 
         // Change lines
         rLine += "<br>";
+
+        // If enabled, alternate the odd and even colors
+        if (cChange) {
+            var temp = rColorEven;
+            rColorEven = rColorOdd;
+            rColorOdd = temp;
+        }
 
     }
 

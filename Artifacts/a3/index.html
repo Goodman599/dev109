@@ -39,6 +39,14 @@
 
         <br>
 
+        <label>Should the colors alternate between each row?</label>
+        <select id="cChange">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select>
+
+        <br>
+
         <label>Choose symbol for Rhombus</label>
         <select id="symbol">
             <option value="*">*</option>
@@ -50,7 +58,7 @@
 
         <br>
 
-        <button onclick="createRhombus(document.getElementById('rHeight').value, document.getElementById('colorEven').value, document.getElementById('colorOdd').value, document.getElementById('symbol').value);">
+        <button onclick="createRhombus(document.getElementById('rHeight').value, document.getElementById('colorEven').value, document.getElementById('colorOdd').value, document.getElementById('symbol').value, document.getElementById('cChange').value);">
             Display Rhombus
         </button>
 
