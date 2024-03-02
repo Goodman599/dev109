@@ -39,3 +39,7 @@ img {
     float: right;
     clear: both;
 }
+
+a {
+    margin: 0 5%;
+}
