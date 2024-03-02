@@ -10,7 +10,6 @@
 
 #footer {
     text-align: center;
-    padding: 10px;
     position: fixed;
     bottom: 0;
     background-color: #fcba03;
@@ -25,6 +24,7 @@
 
 #images p {
     width: 400px;
+    height: 5em;
     margin: auto;
 }
 
