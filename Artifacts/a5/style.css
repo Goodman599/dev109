@@ -1,0 +1,31 @@
+﻿body {
+    background-color: #FFF5C1;
+}
+
+#content {
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+
+#images {
+    width: 960px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+#cycleDiv {
+    float: right;
+    clear: both;
+}
