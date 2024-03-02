@@ -8,6 +8,16 @@
     text-align: center;
 }
 
+#footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: #fcba03;
+    width: 100%;
+    left: 0;
+}
+
 #images {
     width: 960px;
     margin: auto;
