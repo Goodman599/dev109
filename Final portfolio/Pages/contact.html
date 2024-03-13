@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Contact me</title>
+
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/superia" type="text/css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="about.html"> About </a> </li>
+                    <li> <a href="coursework.html"> Coursework </a> </li>
+                    <li> <a href="artifacts.html"> Artifacts </a> </li>
+                    <li> <a href="modules.html"> Module Assignments </a> </li>
+                    <li class="currentPage" tabindex="0"> Contact Me </li>
+                    <li> <a href="own.html"> Creative Page </a> </li>
+                    <li> <a href="validated.html"> Validation </a> </li>
+                </ul>
+            </nav>
+
+            <div class="headerAndFooterClearer"></div>
+
+            <h1> Contact Me </h1>
+
+        </header>
+
+        <div class="content">
+
+            <form action="thanks.html" method="get" name="myContact">
+                <label for="msg">
+                    Please enter your message here:
+                </label>
+                <br>
+                <textarea placeholder="Type your message here!" required id="msg"></textarea>
+
+
+                <div class="clear warning"></div>
+
+                <label for="email">
+                    Please enter your email here:
+                </label>
+                <br>
+                <input type="email" placeholder="youremail@service.com" required id="email">
+
+
+                <div class="clear warning"></div>
+
+                <label for="name">
+                    Please enter your name here:
+                </label>
+                <br>
+                <input type="text" placeholder="Enter your name here!" required id="name">
+
+                <div class="clear warning"></div>
+
+                <div class="submitError"></div>
+
+                <input type="submit">
+
+            </form>
+
+        </div>
+
+
+        <div class="headerAndFooterClearer"></div>
+
+        <footer tabindex="-1">
+            Copyright 2024 I think
+        </footer>
+
+    </body>
+</html>
