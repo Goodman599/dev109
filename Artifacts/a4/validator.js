@@ -254,21 +254,22 @@ function zip(calledByBlur = false) {
 showZip();
 
 function showZip() {
-    var country = document.getElementById("logs").value;
-
     var country = document.getElementById("country").value;
     var zipLabel = document.getElementById("zipLabel");
     var zipCode = document.getElementById("zip");
+    var zipError = document.getElementById("zipError");
     if (country == "United States") {
         console.log("Showing ZIP");
         zipLabel.className = "";
         zipCode.className = "";
+        zipError.className = "warning";
         // Re-evaluate zip() after showing/hiding
         zip();
     } else {
         console.log("Hiding ZIP");
         zipLabel.className = "hide";
         zipCode.className = "hide";
+        zipError.className = "hide";
         // Re-evaluate zip() after showing/hiding
         zip();
     }
