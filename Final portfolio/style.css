@@ -194,3 +194,20 @@ hr {
 	width: 600px;
 	margin: auto;
 }
+
+#musicButton {
+	background-color: #FFFFFF;
+	position: fixed;
+	object-fit: contain;
+	margin: 50px;
+	padding: 10px;
+	right: 0;
+	bottom: 0;
+	border: outset;
+	border-color: #FFFFFF;
+}
+
+#musicButton img {
+	width: 50px;
+	height: 50px;
+}
