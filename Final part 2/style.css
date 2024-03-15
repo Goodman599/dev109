@@ -1,0 +1,19 @@
+﻿* {
+    font-family: Arial, Verdana, sans-serif;
+    font-family: 'SuperiaRegular';
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("Background image.png");
+}
+
+p {
+    font-size: 1.5em;
+    background-color: #ebff29cc;
+    width: 1280px;
+    margin: auto;
+    margin-top: 100px;
+}
